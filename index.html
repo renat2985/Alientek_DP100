@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Alientek DP100 / High Performance Digital Power</title>
+  <link rel="stylesheet" href="./style.css?v=5">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+  <div id="connect">
+    <h1>Alientek DP100</h1>
+       <p>Just plug in the DP100 using the USB-A to USB-A cable <i>(make sure it's in "USBD" mode; double-tap ◀ to switch)</i>, and click connect!</p>
+       <h2><a href="#" id="connectButton" onclick="toggleConnect()" class="j5-link">Connect...</a></h2>
+  </div>
+<section class="dashboard dimmed" id="main-column">
+  <div id="about">
+    <h1> <span>Alientek</span><span> DP100</span> / High Performance Digital Power</h1>
+       <p>
+          <b data-i18n="donate">If you like this project, you can buy me a cup of coffee ☕</b>
+          <br>
+          <b class="j5-link">Bitcoin</b><sup class="mkr-link">(BTC)</sup>: 19xg6pA4RzSW3o4ZUyTyn5t4tY3tqLXHbe<br>
+          <b class="j5-link">TonCoin</b><sup class="mkr-link">(TON)</sup>: UQBY_xXK_25L-UHq_h2ocfhS0c_lZoA4PIHxt-SktxLa_So7
+       </p>
+  </div>
+  <div id="sensorValues">
+    <div class="sensor-values">
+      <div class="volts">0</div>
+      <label>Volts</label>
+    </div>
+    <div class="sensor-values">
+      <div class="amps">0</div>
+      <label>Amps</label>
+    </div>
+    <div class="sensor-values">
+      <div class="moisture">0</div>
+      <label>Load</label>
+    </div>
+  </div>
+  <div id="sensorData"></div>
+</section>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/highcharts/4.2.1/highcharts.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/4579/darkThemeHighCharts.js'></script>
+<script src="./script.js?v=2"></script>
+
+</body>
+</html>
