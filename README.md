@@ -4,6 +4,8 @@
 
 Simply connect the DP100 using a USB-A to USB-A cable (make sure it is in "USBD" mode; double-click ◀ to toggle) and click "Connect".
 
+
+![screen](https://raw.githubusercontent.com/renat2985/Alientek_DP100/main/device.png)
 ![screen](https://raw.githubusercontent.com/renat2985/Alientek_DP100/main/screen.png)
 
 
